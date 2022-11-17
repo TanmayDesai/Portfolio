@@ -4,7 +4,7 @@ import '../App.css'
 const Page = () => {
     return (
     <>
-        <div className="bg-slate-300 flex flex-row flex-wrap p-3 justify-center">
+        <div className="page bg-slate-300 flex flex-row flex-wrap p-3 justify-center">
         <div className='mx-5 text-3xl my-3 font-light w-full'>Tech Skills:</div>
         <div className="Box"><img className='python' src='https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png' alt='Python' /></div>
         <div className="Box"><img className='python' src='https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png' alt='Java' /></div>

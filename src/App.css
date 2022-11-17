@@ -1,9 +1,22 @@
-*{
-  font-family: 'Montserrat';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+body{
+  font-family: 'Fragment Mono' , monospace;
+  overflow-x: hidden;
 }
 
 .App {
   text-align: center;
+}
+
+.hero{
+  height: auto;
+  padding: 60px;
+  font-size: 24px;
+  background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
 }
 
 .App-logo {
@@ -33,6 +46,7 @@
 }
 
 .loading{
+  font-family: 'Sono';
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,6 +81,10 @@ img{
   object-fit:cover;
 }
 
+.brand{
+  font-family: 'Sono';
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
  .Box{
@@ -75,4 +93,11 @@ img{
   margin: 10px;
   padding: 10px;
  }
+
+ .hero{
+  padding: 30px;
+  text-justify: auto;
+ }
 }
+
+
