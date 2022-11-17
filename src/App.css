@@ -98,6 +98,10 @@ img{
   padding: 30px;
   text-justify: auto;
  }
+
+ .loading{
+  font-size: 24px;
+ }
 }
 
 

@@ -3,10 +3,15 @@ const Hero = () => {
     return(
         <>
         <div className="hero">
-            <div className="text-4xl">Hey There,</div><br></br>
-            <div className="mb-10">“I am a highly Motivated and Hardworking individual seeking a position in a company where I
-can launch my career and build a valuable skillset while making a significant contribution
-towards the growth of the company.”</div>
+            <div>
+                <div className="text-4xl">Hey There,</div><br></br>
+                <div className="mb-10">“I am a highly Motivated and Hardworking individual seeking a position in a company where I
+                                    can launch my career and build a valuable skillset while making a significant contribution
+                                    towards the growth of the company.”
+                </div>
+            </div>
+            
+            
         
         </div>
         
