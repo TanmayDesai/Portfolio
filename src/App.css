@@ -82,7 +82,7 @@ img{
 }
 
 .brand{
-  font-family: 'Sono';
+  /* font-family: 'Sono' !important; */
 }
 
 @media only screen and (max-width: 768px) {

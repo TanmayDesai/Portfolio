@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-
+import '../App.css'
 
 const LoadingScreen = () => {
     return (
